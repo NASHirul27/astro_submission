@@ -9,26 +9,45 @@
   <body>
     <!--HEADER-->
     <header>
-      <h1 class="logo"><span style="font-family: 'Noto Serif JP', serif; color: #a860eb;">Yofu</span>kashi</h1>
+      <h1 class="logo"><span style="font-family: 'Pixelify Sans', sans-serif; color: #a860eb;">Yofu</span>kashi</h1>
       <nav class="navigation">
-        <a href="#home">Home</a>
-        <a href="#top-pick">Top Seller</a>
-        <a href="#latest-up">New & Trending</a>
-        <a href="#">Genre</a>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#top-pick">Top Seller</a></li>
+          <li><a href="#latest-up">New & Trending</a></li>
+          <li>
+            <a href="#">Genre ▾</a>
+            <ul class="dropdown">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Fantasy</a></li>
+              <li><a href="#">Puzzle</a></li>
+              <li><a href="#">Shooter</a></li>
+              <li><a href="#">RPG</a></li>
+            </ul>
+          </li>
+        </ul>
+        
       </nav>
-      <a href="login.html">
-        <button class="login">Login</button>
-      </a>
-      <a href="#" id="hamburger-menu"><ion-icon name="menu"></ion-icon></a>
+      <div class="icon-wrapper">
+        <a href="#"><ion-icon name="search-outline" size="large"></ion-icon></a>
+        <a href="#"><ion-icon name="cart-outline" size="large"></ion-icon></a>
+        <a href="login.html">
+          <button class="login">Login</button>
+        </a>
+        <a href="#" id="hamburger-menu"><ion-icon name="menu" size="large"></ion-icon></a>
+      </div>
+      
+      
     </header>
 
     <!--HERO-->
     <section id="home" class="hero">
       <main class="content">
-        <h1><strong style="font-family: 'Noto Serif JP', serif; color: #a860eb;">Yofu</strong>kashi</h1>
-        <p>
-          <strong>Gaming to your heart's content!</strong>
-        </p>
+        <h1><strong style="font-family: 'Pixelify Sans', sans-serif; color: #a860eb;">Yofu</strong>kashi</h1>
+        <div class="text-wrapper">
+          <p class="text"><strong style="font-family: 'Pixelify Sans', sans-serif;">Gaming to your heart's content!!!</strong></p>
+        </div>
+        
         <!-- <a href="#top-pick" class="cta">Start</a> -->
       </main>
     </section>
