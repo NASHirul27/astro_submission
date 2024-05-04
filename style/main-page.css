@@ -398,6 +398,29 @@ header .login:hover{
     padding-bottom: 2rem;
   }
 
+  .pt {
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+  }
+
+  footer .pt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+  }
+
+  footer .pt > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .pt img {
+    width: 50px;
+  }
+
   footer .social{
     padding: 1rem 0;
   }
